@@ -1,16 +1,5 @@
-# GRAND OFFICIAL
+# Bot_Sinick
 
-DEPLOY HERE - [GRAND OFFICIAL](https://dashboard.heroku.com/new?button-url=https%3A%2F%2Fgithub.com%2Faldoaprilyan3%2FGRANDROBOT&template=https%3A%2F%2Fgithub.com%2Faldoaprilyan3%2FGRANDROBOT)
-[.](https://heroku.com/deploy)
-Credits - [LEGEND X](https://t.me/legendx22)
+<p align="center"><a href="https://heroku.com/deploy?template=https://github.com/Madixz/Toxic"> <img src="https://img.shields.io/badge/Deploy%20To%20Heroku-blue?style=flat&logo=heroku" width="210" height="34.45" /></a></p>
 
-# TELEGRAM
-Check me on [TELEGRAM](https://t.me/grand50_bot)
-# TUTORIAL [OFFICIAL VIDEO](https://youtu.be/JK9cLTDZUR0)
-
-<details>
-<summary> CREDITS </summary>
-<h1> LEGEND X </h1>
-<h1> PROBOY X </h1>
-<h1> TEAMLEGEND </h1>
-</details>
+<br>
