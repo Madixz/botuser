@@ -148,9 +148,9 @@ def start(bot: Bot, update: Update, args: List[str]):
             update.effective_message.reply_photo(
                 TECHNO_IMG,
                 PM_START_TEXT.format(escape_markdown(first_name), escape_markdown(bot.first_name), OWNER_ID),
-                parse_mode=ParseMode.MARKDOWN, reply_markup=InlineKeyboardMarkup([[InlineKeyboardButton(text="⚡Owner⚡",
+                parse_mode=ParseMode.MARKDOWN, reply_markup=InlineKeyboardMarkup([[InlineKeyboardButton(text="Wajib Follow",
                                                                        url="https://instagram.com/bot_sinick?igshid=1clexj5jb1iax")],
-                                                                                   [InlineKeyboardButton(text="🌻Tambahkan Tante🌻",
+                                                                                   [InlineKeyboardButton(text="Tambahkan Bot_Sinick",
                                                                        url="t.me/{}?startgroup=true".format(bot.username)),
                                                                                    InlineKeyboardButton(text="Gabut Pc",
                                                                        url="t.me/Bot_Sinick")
