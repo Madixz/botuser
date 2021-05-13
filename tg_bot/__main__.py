@@ -26,14 +26,16 @@ from tg_bot.modules.helper_funcs.misc import paginate_modules
 
 
 PM_START_TEXT = """
-**Hi, nama saya Tante Gabut !**
+**Hi, nama saya Sinick Bot !**
 Saya adalah robot pintar yang dibuat khusus untuk menjaga dan meramaikan grupchat. 
 
 Tambahkan saya ke grupmu dan atur saya sebagai Admin (Edit -> Admins -> tambahkan admin) dan biarkan saya mengguncang grupmu!
 
 Saya hanya robot, tapi kalau mau mutualan skuylaa xixixi
 
-▪Managed with love by: [Pin⚡](https://t.me/skiditod)
+▪Intagram : [Ig](https://telegra.ph/Daftar-Ig-05-01-2)
+
+▪Gabut Pc Aja : [Owner](https://t.me/Bot_Sinick)
 
 Tekan /help untuk melihat daftar fitur saya.
 
@@ -56,7 +58,7 @@ Halo! namaku *{}*.
 And the following:
 """.format(dispatcher.bot.first_name, "" if not ALLOW_EXCL else "\nAll commands can either be used with / or !.\n")
 
-TECHNO_IMG = "https://telegra.ph/file/2d12c5acaf3579e6cacdf.jpg"
+TECHNO_IMG = "https://telegra.ph/file/5e1d677f0ebb0ffdc3663.jpg"
 IMPORTED = {}
 MIGRATEABLE = []
 HELPABLE = {}
@@ -147,15 +149,15 @@ def start(bot: Bot, update: Update, args: List[str]):
                 TECHNO_IMG,
                 PM_START_TEXT.format(escape_markdown(first_name), escape_markdown(bot.first_name), OWNER_ID),
                 parse_mode=ParseMode.MARKDOWN, reply_markup=InlineKeyboardMarkup([[InlineKeyboardButton(text="⚡Owner⚡",
-                                                                       url="https://instagram.com/sml.sptr?igshid=11jgb6dfwt38y")],
-                                                                                   [InlineKeyboardButton(text="❗Tambahkan Tante❗",
+                                                                       url="https://instagram.com/bot_sinick?igshid=1clexj5jb1iax")],
+                                                                                   [InlineKeyboardButton(text="❗Tambahkan Sinick Bot❗",
                                                                        url="t.me/{}?startgroup=true".format(bot.username)),
                                                                                    InlineKeyboardButton(text="📌official grub📌",
-                                                                       url="t.me/beergabutria")
+                                                                       url="t.me/Bot_Sinick")
                                                                                  ]]))
 
     else:
-        update.effective_message.reply_text("Tante siap menguncangkan para cabul🔥")
+        update.effective_message.reply_text("Sinick siap menguncangkan para pascol")
 
 
 def send_start(bot, update):
