@@ -150,11 +150,7 @@ def start(bot: Bot, update: Update, args: List[str]):
                 PM_START_TEXT.format(escape_markdown(first_name), escape_markdown(bot.first_name), OWNER_ID),
                 parse_mode=ParseMode.MARKDOWN, reply_markup=InlineKeyboardMarkup([[InlineKeyboardButton(text="⚡Owner⚡",
                                                                        url="https://instagram.com/bot_sinick?igshid=1clexj5jb1iax")],
-                                                                                   [InlineKeyboardButton(text="❗Tambahkan Sinick Bot❗",
-                                                                       url="t.me/{}?startgroup=true".format(bot.username)),
-                                                                                   InlineKeyboardButton(text="📌official grub📌",
-                                                                       url="t.me/Bot_Sinick")
-                                                                                 ]]))
+                                                                                ]]))
 
     else:
         update.effective_message.reply_text("Sinick siap menguncangkan para pascol")
